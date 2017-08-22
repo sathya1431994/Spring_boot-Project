@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+	 <p>*************User Filter**************</p>
+	<div>
+		<form action="register" method="get">
+	name :	<input type="text" name="name"><br><br> 
+	Rollno :	<input type="text" name="rollno"><br><br> 
+		<input type="submit" value="Register"> <br><br>
+	</form>
+	 <form action="show" method="get">
+		 <input type="submit" value="Show">
+	</form>
+<!---		 <p>---------------------------------</p>
+	 </form>
+	  <form action="init" method="delete">
+id : <input type="number" name="id"><br><br> 
+		 <input type="submit" value="delete">
+	 </form>
+<p>------------------------------</p>
+	  <form action="welcome" method="get">
+id : <input type="text" name="id"><br><br> 
+		 <input type="submit" value="check">
+	 </form>-->
+	 <p>*************Admin Filter**************</p>
+	 <div>
+<form action="filter" method="get">
+<select name="department">
+<option selected="selected">Department list</option>
+  <option value="cse">cse</option>
+  <option value="mech">mech</option>
+  <option value="eee">eee</option>
+  <option value="civil">civil</option>
+</select>  <br><br>
+	  <select name="rollno">
+ <option selected="selected">Choose...</option>
+  <option >10001</option>
+  <option >10003</option>
+  <option >10005</option>
+  <option >10007</option>
+  <option >10009</option>
+</select>
+	&nbsp&nbsp	 <input type="submit" value="Filter">
+	</form>
+	</div>
+	</div>
+	<!---
+	<p>-------------------------------------</p>
+		<div>
+			<form action="save" method="get">
+		Dept_id :	<input type="text" name="dept_id"><br><br> 
+		Dept_name	<input type="text" name="dept_name"><br><br> 
+		<input type="submit" value="Save"> <br><br>
+	</form>
+		</div>-->
+</body>
+</html>
